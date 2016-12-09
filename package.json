@@ -7,7 +7,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/GeraldBrooks/youtube.git"
+		"url": "https://github.com/Rupreht/youtube.git"
 	},
 	"devDependencies": {
 		"code-proxy": "^1.2.21",
