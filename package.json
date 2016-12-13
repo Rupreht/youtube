@@ -40,29 +40,6 @@
 		"weinre": "^2.0.0-pre-I0Z7U9OV",
 		"ws": "^0.7.2"
 	},
-	"scripts": {
-		"build": "gulp webpack:develop && gulp lang && gulp webpack:clean && gulp build:release"
-	},
-	"config": {
-	    "type": "app",
-	    "category": "apps",
-	    "backgroundColor": "#c12226",
-	    "name": "Youtube",
-	    "legacy": true,
-	    "description": "Youtube.com is a world famous video hosting, which allows users to watch, upload and share videos with their friends.",
-	    "icons": {
-		"paths": {
-		    "480": "img/480/",
-		    "576": "img/576/",
-		    "720": "img/720/",
-		    "1080": "img/1080/"
-		},
-		"states": {
-		    "normal": "icons/2015.png",
-		    "active": "icons/2015.focus.png"
-		}
-	    }
-	},
 	"options": [
 		{
 			"name": "apiKey",
@@ -88,5 +65,22 @@
 			"name": "config",
 			"desc": "Url encoded path to file which control menu items, if not provided, use https://raw.githubusercontent.com/Rupreht/youtube/master/app/config.json"
 		}
-	]
+	],
+	"config": {
+	    "backgroundColor": "#c12226",
+	    "name": "Youtube",
+	    "legacy": true,
+	    "icons": {
+		"paths": {
+		    "480": "img/480/",
+		    "576": "img/576/",
+		    "720": "img/720/",
+		    "1080": "img/1080/"
+		},
+		"states": {
+		    "normal": "icons/2015.png",
+		    "active": "icons/2015.focus.png"
+		}
+	    }
+	}
 }
