@@ -43,19 +43,19 @@
 	"options": [
 		{
 			"name": "apiKey",
-			"desc": "API app key. Add it from https://console.developers.google.com/project/PROJECT_ID/apiui/credential. Add credentials - API KEY"
+			"desc": "API app key. Add it from https:\/\/console.developers.google.com\/project\/PROJECT_ID\/apiui\/credential. Add credentials - API KEY"
 		},
 		{
 			"name": "apiClientId",
-			"desc": "API app clientId. Add it from https://console.developers.google.com/project/PROJECT_ID/apiui/credential. Add credentials - OAuth 2.0 client IDs. Click on the generetaed id and fill from 'Client ID'"
+			"desc": "API app clientId. Add it from https:\/\/console.developers.google.com\/project\/PROJECT_ID\/apiui\/credential. Add credentials - OAuth 2.0 client IDs. Click on the generetaed id and fill from 'Client ID'"
 		},
 		{
 			"name": "apiSecret",
-			"desc": "API app secret key. Add it from https://console.developers.google.com/project/PROJECT_ID/apiui/credential. Add credentials - OAuth 2.0 client IDs. Click on the generetaed id and fill from 'Client secret'"
+			"desc": "API app secret key. Add it from https:\/\/console.developers.google.com\/project\/PROJECT_ID\/apiui\/credential. Add credentials - OAuth 2.0 client IDs. Click on the generetaed id and fill from 'Client secret'"
 		},
 		{
 			"name": "language",
-			"desc": "Interface language. Supported list - https://github.com/GeraldBrooks/youtube#supported-interface-languages"
+			"desc": "Interface language. Supported list - https:\/\/github.com\/GeraldBrooks\/youtube#supported-interface-languages"
 		},
 		{
 			"name": "regionCode",
@@ -63,7 +63,7 @@
 		},
 		{
 			"name": "config",
-			"desc": "Url encoded path to file which control menu items, if not provided, use https://raw.githubusercontent.com/Rupreht/youtube/master/app/config.json"
+			"desc": "Url encoded path to file which control menu items, if not provided, use https:\/\/raw.githubusercontent.com\/Rupreht\/youtube\/master\/app\/config.json"
 		}
 	],
 	"config": {
