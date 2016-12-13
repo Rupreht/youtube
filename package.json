@@ -44,64 +44,55 @@
 		"build": "gulp webpack:develop && gulp lang && gulp webpack:clean && gulp build:release"
 	},
 	"config": {
-		"name": "Youtube",
-		"description": "Youtube.com is a world famous video hosting, which allows users to watch, upload and share videos with their friends.",
-		"type": "app",
-		"category": "apps",
-		"legacy": true,
-		"uris": {
-			"app": "app",
-			"entry": "index.html",
-			"icons": {
-				"480": {
-					"logoNormal": "img/480/icons/2015.png",
-					"logoActive": "img/480/icons/2015.focus.png"
-				},
-				"576": {
-					"logoNormal": "img/576/icons/2015.png",
-					"logoActive": "img/576/icons/2015.focus.png"
-				},
-				"720": {
-					"logoNormal": "img/720/icons/2015.png",
-					"logoActive": "img/720/icons/2015.focus.png"
-				},
-				"1080": {
-					"logoNormal": "img/1080/icons/2015.png",
-					"logoActive": "img/1080/icons/2015.focus.png"
-				}
-			}
+	    "type": "app",
+	    "category": "apps",
+	    "backgroundColor": "#c12226",
+	    "name": "Youtube",
+	    "legacy": true,
+	    "description": "Youtube.com is a world famous video hosting, which allows users to watch, upload and share videos with their friends.",
+	    "icons": {
+		"paths": {
+		    "480": "img/480/",
+		    "576": "img/576/",
+		    "720": "img/720/",
+		    "1080": "img/1080/"
 		},
-		"colors": {
-			"splashFont": "#fff",
-			"splashBackground": "#c12226"
-		},
-		"options": [
-			{
-				"name": "apiKey",
-				"desc": "API app key. Add it from https://console.developers.google.com/project/PROJECT_ID/apiui/credential. Add credentials - API KEY"
-			},
-			{
-				"name": "apiClientId",
-				"desc": "API app clientId. Add it from https://console.developers.google.com/project/PROJECT_ID/apiui/credential. Add credentials - OAuth 2.0 client IDs. Click on the generetaed id and fill from 'Client ID'"
-			},
-			{
-				"name": "apiSecret",
-				"desc": "API app secret key. Add it from https://console.developers.google.com/project/PROJECT_ID/apiui/credential. Add credentials - OAuth 2.0 client IDs. Click on the generetaed id and fill from 'Client secret'"
-			},
-			{
-				"name": "language",
-				"desc": "Interface language. Supported list - https://github.com/GeraldBrooks/youtube#supported-interface-languages"
-			},
-			{
-				"name": "regionCode",
-				"desc": "Content will be relevant to the selected country. The parameter value is an ISO 3166-1 alpha-2 country code."
-			},
-			{
-				"name": "config",
-				"desc": "Url encoded path to file which control menu items, if not provided, use https://raw.githubusercontent.com/Rupreht/youtube/master/app/config.json"
-			}
-		]
+		"states": {
+		    "normal": "icons/2015.png",
+		    "active": "icons/2015.focus.png"
+		}
+	    },
 	},
+	"colors": {
+		"splashFont": "#fff",
+		"splashBackground": "#c12226"
+	},
+	"options": [
+		{
+			"name": "apiKey",
+			"desc": "API app key. Add it from https://console.developers.google.com/project/PROJECT_ID/apiui/credential. Add credentials - API KEY"
+		},
+		{
+			"name": "apiClientId",
+			"desc": "API app clientId. Add it from https://console.developers.google.com/project/PROJECT_ID/apiui/credential. Add credentials - OAuth 2.0 client IDs. Click on the generetaed id and fill from 'Client ID'"
+		},
+		{
+			"name": "apiSecret",
+			"desc": "API app secret key. Add it from https://console.developers.google.com/project/PROJECT_ID/apiui/credential. Add credentials - OAuth 2.0 client IDs. Click on the generetaed id and fill from 'Client secret'"
+		},
+		{
+			"name": "language",
+			"desc": "Interface language. Supported list - https://github.com/GeraldBrooks/youtube#supported-interface-languages"
+		},
+		{
+			"name": "regionCode",
+			"desc": "Content will be relevant to the selected country. The parameter value is an ISO 3166-1 alpha-2 country code."
+		},
+		{
+			"name": "config",
+			"desc": "Url encoded path to file which control menu items, if not provided, use https://raw.githubusercontent.com/Rupreht/youtube/master/app/config.json"
+		}
+	],
 	"keywords": [
 		"magsdk",
 		"stalker",
