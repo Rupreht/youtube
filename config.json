@@ -1,19 +1,56 @@
 {
-    "categories": {
-	"GCQmVzdCBvZiBZb3VUdWJl"	: "Best of YouTube",
-	"GCRmlsbSAmIEVudGVydGFpbm1lbnQ"	: "Film & Entertainment",
-	"GCRnJvbSBUVg"			: "From TV",
-	"GCTXVzaWM"			: "Music",
-	"GCQ29tZWR5"			: "Comedy",
-	"GCVGVjaA"			: "Tech",
-	"GCU3BvcnRz"			: "Sports",
-	"GCR2FtaW5n"			: "Gaming",
-	"GCQXV0b21vdGl2ZQ"		: "Automotive",
-	"GCQW5pbWF0aW9u"		: "Animation",
-	"GCU2NpZW5jZSAmIEVkdWNhdGlvbg"	: "Science & Education",
-	"GCQ29va2luZyAmIEhlYWx0aA"	: "Cooking & Health",
-	"GCQmVhdXR5ICYgRmFzaGlvbg"	: "Beauty & Fashion",
-	"GCTmV3cyAmIFBvbGl0aWNz"	: "News & Politics",
-	"GCTGlmZXN0eWxl"		: "Lifestyle"
-    }
+	"categories": {
+		"GCTXVzaWM"							: "Music",
+		"GCQ29tZWR5"						: "Comedy",
+		"GCRmlsbSAmIEVudGVydGFpbm1lbnQ"		: "Film & Entertainment",
+		"GCR2FtaW5n"						: "Gaming",
+		"GCQmVhdXR5ICYgRmFzaGlvbg"			: "Beauty & Fashion",
+		"GCQXV0b21vdGl2ZQ"					: "Automotive",
+		"GCQW5pbWF0aW9u"					: "Animation",
+		"GCU3BvcnRz"						: "Sports",
+		"GCVGVjaA"							: "Tech",
+		"GCU2NpZW5jZSAmIEVkdWNhdGlvbg"		: "Science & Education",
+		"GCQ29va2luZyAmIEhlYWx0aA"			: "Cooking & Health",
+		"GCTmV3cyAmIFBvbGl0aWNz"			: "News & Politics"
+	},
+	"menu": {
+		"categories": {
+			"GCTXVzaWM"							: "Music",
+			"GCQ29tZWR5"						: "Comedy",
+			"GCRmlsbSAmIEVudGVydGFpbm1lbnQ"		: "Film & Entertainment",
+			"GCR2FtaW5n"						: "Gaming",
+			"GCQmVhdXR5ICYgRmFzaGlvbg"			: "Beauty & Fashion",
+			"GCQXV0b21vdGl2ZQ"					: "Automotive",
+			"GCQW5pbWF0aW9u"					: "Animation",
+			"GCU3BvcnRz"						: "Sports",
+			"GCVGVjaA"							: "Tech",
+			"GCU2NpZW5jZSAmIEVkdWNhdGlvbg"		: "Science & Education",
+			"GCQ29va2luZyAmIEhlYWx0aA"			: "Cooking & Health",
+			"GCTmV3cyAmIFBvbGl0aWNz"			: "News & Politics"
+		},
+		"searchQueries": {
+		},
+		"playlists": {
+		},
+		"channels": {
+		}
+	},
+	"credentials": {
+		"key": [
+			"AIzaSyADwiOqwPVM3hnRA9m6JiBazYESzJl49Bw"
+		],
+		"clientId": [
+			"354989210207-dbm8i48mqm7t1jdno8qgf6it4kmn7gfi.apps.googleusercontent.com"
+		],
+		"secret": [
+			"k63iteeoJsjcT0mV6qqcdGo2"
+		]
+	},
+	"keys": [
+		{
+			"key":      "AIzaSyADwiOqwPVM3hnRA9m6JiBazYESzJl49Bw",
+			"clientId": "354989210207-dbm8i48mqm7t1jdno8qgf6it4kmn7gfi.apps.googleusercontent.com",
+			"secret":   "k63iteeoJsjcT0mV6qqcdGo2"
+		}
+	]
 }
